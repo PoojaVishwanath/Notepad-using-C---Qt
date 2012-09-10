@@ -5,8 +5,8 @@
 int main(int argc, char** argv)
 {
     QApplication app(argc, argv);
-    Notepad note;
-    note.show();
+    Notepad notepad;
+    notepad.show();
 
     return app.exec();
 }
